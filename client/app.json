@@ -1,5 +1,8 @@
 {
   "pages":[
+    "pages/main/submit/submit",
+    "pages/main/index",
+    "pages/mine/index",
     "pages/index/index",
     "pages/addCgi/addCgi"
   ],
@@ -7,7 +10,16 @@
     "backgroundColor":"#F6F6F6",
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "Wafer Quick Start",
+    "navigationBarTitleText": "小旅生活",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "list": [{
+      "pagePath": "pages/main/index",
+      "text": "广场"
+    }, {
+      "pagePath": "pages/mine/index",
+      "text": "个人中心"
+    }]
   }
 }

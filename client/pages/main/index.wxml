@@ -1,0 +1,10 @@
+<view class='container'>
+  <text class='main-note'>在这里大家可以看到社区中最新的，好玩有趣的新鲜事！</text>
+  <scroll-view class='content-list'>
+    <view wx:for="10234234" class='content-cell'>
+      <text class='content-cell-title'>这是标题</text>
+      <text class='content-cell-content'>这是新鲜事的内容</text>
+    </view>
+  </scroll-view>
+  <button id='main-submit' bindtap='submit'>我也要发布</button>
+</view>

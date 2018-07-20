@@ -1,0 +1,7 @@
+<view class='submit'>
+  <text>请输入标题：</text>
+  <input type='text' focus='true' value='{{inputTitle}}' bindinput='bindTitleInput'></input>
+  <text>请输入内容：</text>
+  <textarea value='{{inputContent}}' bindinput='bindContentTextarea'></textarea>
+  <button bindtap='submit'>发布</button>
+</view>
